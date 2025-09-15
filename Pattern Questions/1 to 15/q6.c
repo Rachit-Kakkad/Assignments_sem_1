@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+    int n = 5;
+    printf("6th pattern :");
+    printf("\n");
+    for (int i = 1; i <= n; i++)
+    {
+        for (int j = 0; j < n; j++)
+            printf("%c ", 'A' + j);
+        printf("\n");
+    }
+
+return 0;
+}
